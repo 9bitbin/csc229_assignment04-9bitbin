@@ -1,19 +1,21 @@
-public class Task01 {
-    public static void main(String[] args) {
+public class Task01 { // Define a public class named Task01
+
+    public static void main(String[] args) { // Define the main method
         countDown(10); // Start countdown from 10
     }
 
-    static void countDown(int num) {
-        if (num == 0) {
-            System.out.println("Blastoff!");
-        } else {
+    static void countDown(int num) { // Define a static method named countDown that takes an integer argument named num
+        if (num == 0) { // Check if num is equal to 0
+            System.out.println("Blastoff!"); // Print "Blastoff!"
+        } else { // If num is not equal to 0
             if (num % 2 == 0) { // Check if num is even
-                System.out.println(num);
+                System.out.println(num); // Print num
             }
-            countDown(num - 1); // Recursive call
+            countDown(num - 1); // Recursive call with num decremented by 1
         }
     }
 }
+
 
 //Task 01:
 /**
