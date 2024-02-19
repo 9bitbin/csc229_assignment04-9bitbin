@@ -1,5 +1,13 @@
-public class Task01 { // Define a public class named Task01
+/**
+ * Author: Himal Shrestha
+ * Student ID: R01955141
+ * Course: CSC 229 - Data Structure and Algorithms
+ * Lab: 04
+ * Lab 04 - Task01
+ */
 
+public class Task01 { // Define a public class named Task01
+    // Declare the package org.example
     public static void main(String[] args) { // Define the main method
         countDown(10); // Start countdown from 10
     }
@@ -15,7 +23,6 @@ public class Task01 { // Define a public class named Task01
         }
     }
 }
-
 
 //Task 01:
 /**
@@ -33,4 +40,3 @@ public class Task01 { // Define a public class named Task01
  * the number of recursive calls is proportional to the value of num.
  * Therefore, the time complexity is linear and is expressed as O(n), where n is the value of the input number num.
  */
-
