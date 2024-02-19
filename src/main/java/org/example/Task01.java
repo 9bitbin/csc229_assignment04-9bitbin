@@ -1,4 +1,4 @@
-public class MainClass {
+public class Task01 {
     public static void main(String[] args) {
         countDown(10); // Start countdown from 10
     }
