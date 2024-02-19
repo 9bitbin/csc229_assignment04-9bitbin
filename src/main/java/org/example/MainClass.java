@@ -24,5 +24,11 @@ public class MainClass {
 /**
  * printd only even numbers
  */
-
+/**
+ * In the countDown() method, the algorithm iterates recursively from the given number (num) down to 0.
+ * In each recursive call, it performs constant-time operations (comparisons and printing),
+ * and it reduces the value of num by 1 in each step. Since the algorithm linearly decrements num by 1 in each recursive call until it reaches 0,
+ * the number of recursive calls is proportional to the value of num.
+ * Therefore, the time complexity is linear and is expressed as O(n), where n is the value of the input number num.
+ */
 
