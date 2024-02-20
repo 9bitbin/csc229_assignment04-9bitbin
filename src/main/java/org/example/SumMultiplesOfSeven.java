@@ -28,3 +28,15 @@ public class SumMultiplesOfSeven {
         return current + sumMultiplesOfSeven(n1 + 1, n2);
     }
 
+    // The main method - entry point of the program
+    public static void main(String[] args) {
+        int n1 = 1; // Define the start of the range
+        int n2 = 50; // Define the end of the range
+
+        // Call the sumMultiplesOfSeven method with n1 and n2 and store the result in 'sum'
+        int sum = sumMultiplesOfSeven(n1, n2);
+
+        // Print out the result
+        System.out.println("The sum of all numbers between " + n1 + " and " + n2 + " that are multiples of 7 is: " + sum);
+    }
+}
