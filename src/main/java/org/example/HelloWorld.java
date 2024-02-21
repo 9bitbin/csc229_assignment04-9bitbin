@@ -10,8 +10,8 @@ package org.example; // Declare the package name for this Java class
  */
 public class HelloWorld { // Declare the class HelloWorld
     public static void main(String[] args) { // Define the main method that serves as the entry point for the program
-        int n = 10; // Declare an integer variable n and initialize it to 10.
-        printHelloWorld(n); // Call the printHelloWorld method with the value of n to print "Hello World" n times
+      //  int n = 10; // Declare an integer variable n and initialize it to 10.
+      // printHelloWorld(n); // Call the printHelloWorld method with the value of n to print "Hello World" n times
     }
     public static void printHelloWorld(int n) { // Define a static method printHelloWorld that takes an integer n as argument
         if (n <= 0) { // Check if n is less than or equal to 0
