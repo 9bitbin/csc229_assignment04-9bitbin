@@ -45,3 +45,23 @@ public class BinarySearch {
         // Return -1 if the element is not found in the array
         return -1;
     }
+
+
+    // Main method to run the program
+    public static void main(String args[]) {
+        // Initialize an array of integers
+        int arr[] = { 2, 3, 4, 10, 40 };
+        // Calculate the length of the array
+        int n = arr.length;
+        // Define the value to search for
+        int x = 10;
+        // Call the binary search method and store the result
+        int result = binarySearch(arr, 0, n - 1, x);
+        // Check if the result is -1, which means the element is not found
+        if (result == -1)
+            System.out.println("Element not present"); // Print element not present
+        else
+            // Otherwise, print the index where the element was found
+            System.out.println("Element found at index " + result);
+    }
+}
