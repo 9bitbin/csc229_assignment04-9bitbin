@@ -6,7 +6,7 @@ package org.example;
  * Student ID: R01955141
  * Course: CSC 229 - Data Structure and Algorithms
  * Lab: 04
- * Task: SumMultiplesOfSeven
+ * homework: SumMultiplesOfSeven
  * Description: Write a function that returns the sum of all numbers between
  * n1 and n2 that are multiples of 7 using recursion.
  */

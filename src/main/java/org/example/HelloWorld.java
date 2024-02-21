@@ -5,7 +5,7 @@ package org.example; // Declare the package name for this Java class
  * Student ID: R01955141
  * Course: CSC 229 - Data Structure and Algorithms
  * Lab: 04
- * Task: HelloWorld
+ * homework: HelloWorld
  * Description: Write a function that prints "Hello World" n times recursively.
  */
 public class HelloWorld { // Declare the class HelloWorld
